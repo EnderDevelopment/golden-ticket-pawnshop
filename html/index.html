@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawnshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="app" class="hidden">
+        <div class="backdrop"></div>
+        <section class="panel">
+            <header class="topbar">
+                <div class="brand"><span class="brand-mark">✦</span><div><p class="eyebrow">THE LOCAL MARKET</p><h1 id="shop-name">Pawnshop</h1></div></div>
+                <button id="close" class="icon-button" aria-label="Close">×</button>
+            </header>
+            <div class="hero"><div><p class="eyebrow gold">BUY • SELL • TRADE</p><h2>Turn your valuables<br><em>into opportunity.</em></h2><p class="subtext">Fair prices. Fast cash. No questions asked.</p></div><div class="hero-art">◆</div></div>
+            <div class="toolbar"><div class="search"><span>⌕</span><input id="search" placeholder="Search your items..." autocomplete="off"></div><div id="categories" class="categories"></div></div>
+            <div id="items" class="items"></div>
+            <div id="toast" class="toast"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
